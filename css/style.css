@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 50px;
+    width: auto;
+    background-color: blue;
+}
+.header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.section1{
+    height: 887px;
+    width: auto;
+    background-color: blueviolet;
+}
+.section2 {
+    height: 857px;
+    width: auto;
+    background-color: chartreuse;
+}
+.section3 {
+    height: 1005px;
+    width: auto;
+    background-color: rgb(31, 114, 223);
+}
+.section4 {
+    height: 689px;
+    width: auto;
+    background-color: rgb(39, 150, 39);
+}
+.section5 {
+    height: 926px;
+    width: auto;
+    background-color: rgb(196, 47, 151);
+}
+.footer{
+    height: 50px;
+    width: auto;
+    background-color: blue;
+}
