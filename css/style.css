@@ -1,16 +1,49 @@
+/*Fonts letter*/
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&family=Lilita+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    border: 0;
 }
+/*Tipo de letra body*/
+body{
+    font-family: 'Lilita One', cursive;
+}
+/*Estilos header-nav*/
 .header{
-    height: 50px;
-    width: auto;
-    background-color: blue;
+    font-family: 'Kadwa', serif;
+    height: 65px;
+    width: 100%;
+    background-color: #030303;
+    display: flex;
+    align-items: center;
+    position: fixed;
 }
 .header img{
     height: 50px;
     width: 50px;
     border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header #name{
+    color: #fff;
+    margin-left: 20px;
+}
+.header nav{
+    margin-left: auto;
+}
+.header nav ul li{
+    color: #fff;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    margin: 0 10px 0 10px
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: #fff;
 }
 .section1{
     height: 887px;
