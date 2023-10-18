@@ -149,20 +149,86 @@ body{
     flex-direction: row;
 }
 .section3 .text{
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
 .section3 .text .description{
     font-size: 35px;
     margin: 70px;
+    color: #4E4848;
+    width: 50%;
 }
 .section3 .text .title-two{
     font-size: 35px;
+    margin: 70px;
+    color: #4E4848;
+    width: 50%;
 }
 .section3 .text .title-two h2{
     text-align: center;
 }
 
+.section3 .text .title-two i{
+    font-size: 65px;
+}
+.section3 .text .title-two #item-one{
+    color: #f87b06;
+}
+.section3 .text .title-two .icons{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.title-two .exp{
+    display: flex;
+    flex-direction: row;
+}
+#item-one:hover{
+    font-size: 70px;
+}
+#item-two:hover{
+    font-size: 70px;
+}
+#item-three:hover{
+    font-size: 70px;
+}
+#item-four:hover{
+    font-size: 70px;
+}
+#item-five:hover{
+    font-size: 70px;
+}
+.bar{
+    width: 100%;
+}
+.progress-bar, .progress-bar1, .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4 {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    border: 1px solid #888;
+}
+.title-two .exp .progress-bar{
+    margin: 25px 0 0 25px;
+}
+.title-two .exp .progress-bar1{
+    margin: 35px 0 0 25px;
+}
+.title-two .exp .progress-bar2{
+    margin: 45px 0 0 25px;
+}
+.title-two .exp .progress-bar3{
+    margin: 45px 0 0 25px;
+}
+.title-two .exp .progress-bar4{
+    margin: 45px 0 0 25px;
+}
+.progress {
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #0074D9;
+  }
 /*Estilizando la setion4*/
 .section4 {
     height: 689px;
