@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/138ba08374.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="head">
+    <div class="head" id="1">
         <header class="header">
             <div>
                 <img src="/image/foto.jpg" alt="Logo">
@@ -18,28 +18,28 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#1">ABOUT</a>
+                        <a href="#2">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#2">EXPERIENCE</a>
+                        <a href="#3">EXPERIENCE</a>
                     </li>
                     <li>
-                        <a href="#">PROJECTS</a>
+                        <a href="#4">PROJECTS</a>
                     </li>
                     <li>
-                        <a href="#">CONTACT</a>
+                        <a href="#5">CONTACT</a>
                     </li>
                 </ul>
             </nav>
         </header>
     </div>
-    <section id="1"class="section1">
+    <section class="section1">
         <div class="sumary">
             <h1>Hi, I´m Jhony A. Rozo</h1>
             <h2>Full stack developer passionate about technology and innovation.</h2>
         </div>
     </section>
-    <section class="section2">
+    <section class="section2" id="2">
         <div class="izq">
             <img src="image/Ellipse 1.png" alt="img-portfolio">
         </div>
@@ -55,7 +55,7 @@
         </div>
         
     </section>
-    <section id="2" class="section3">
+    <section id="3" class="section3">
         <div class="title-one">
             <h2>Experience</h2>
         </div>
@@ -109,7 +109,7 @@
         
 
     </section>
-    <section class="section4">
+    <section id="4" class="section4">
         <div class="title4">
             <h2>Projects</h2>
         </div>
@@ -180,7 +180,7 @@
             </div>
 
     </section>
-    <section class="section5">
+    <section id="5" class="section5">
 
         <div class="title-five">
             <h2>Contact</h2>
@@ -201,19 +201,30 @@
                     <input type="text" name="name" id="name" placeholder="Your name"><br><br>
                     <label for="email">Email</label><br>
                     <input type="email" name="email" id="email" placeholder="Your email"><br><br>
-                    <label for="msn">Message</label><br>
-                    <textarea name="texarea" id="textarea" cols="30" rows="10" placeholder="write your message here"></textarea>
+                    <label for="textarea">Message</label><br>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your message here"></textarea>
                 </form>
+                <button>Submit</button>
             </div>
         </div>
 
     </section>
     <footer class="footer">
+        <span>©All rights reseved by Jhony Rozo</span>
+        <div class="iconsf">
+            <a href="https://www.linkedin.com/in/jhony-rozo-6444781a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i></a>
+            <a href="https://github.com/DevJhonyR" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+            <a href="https://wa.me/+573232206410" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i></a>
+        </div>
+    
 
     </footer>
     <div class="rocket-img">
-        <img src="/image/Rocket.png" alt="rocket">
-    </div>
+        <a href="#1">
+            <img src="/image/Rocket.png" alt="rocket">
+        </a>
+    </div>    
+    <script src="/js/script.js"></script>
 
 </body>
 </html>
